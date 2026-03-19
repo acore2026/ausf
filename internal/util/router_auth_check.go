@@ -5,9 +5,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	ausf_context "github.com/free5gc/ausf/internal/context"
-	"github.com/free5gc/ausf/internal/logger"
-	"github.com/free5gc/openapi/models"
+	ausf_context "github.com/acore2026/ausf/internal/context"
+	"github.com/acore2026/ausf/internal/logger"
+	"github.com/acore2026/openapi/models"
 )
 
 type RouterAuthorizationCheck struct {

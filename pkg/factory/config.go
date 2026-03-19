@@ -14,8 +14,8 @@ import (
 	"github.com/asaskevich/govalidator"
 	"github.com/google/uuid"
 
-	"github.com/free5gc/ausf/internal/logger"
-	"github.com/free5gc/openapi/models"
+	"github.com/acore2026/ausf/internal/logger"
+	"github.com/acore2026/openapi/models"
 )
 
 const (

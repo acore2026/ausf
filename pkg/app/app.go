@@ -1,8 +1,8 @@
 package app
 
 import (
-	ausf_context "github.com/free5gc/ausf/internal/context"
-	"github.com/free5gc/ausf/pkg/factory"
+	ausf_context "github.com/acore2026/ausf/internal/context"
+	"github.com/acore2026/ausf/pkg/factory"
 )
 
 type App interface {

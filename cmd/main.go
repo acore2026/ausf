@@ -18,11 +18,11 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/free5gc/ausf/internal/logger"
-	"github.com/free5gc/ausf/pkg/factory"
-	"github.com/free5gc/ausf/pkg/service"
-	logger_util "github.com/free5gc/util/logger"
-	"github.com/free5gc/util/version"
+	"github.com/acore2026/ausf/internal/logger"
+	"github.com/acore2026/ausf/pkg/factory"
+	"github.com/acore2026/ausf/pkg/service"
+	logger_util "github.com/acore2026/util/logger"
+	"github.com/acore2026/util/version"
 )
 
 var AUSF *service.AusfApp

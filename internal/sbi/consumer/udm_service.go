@@ -4,11 +4,11 @@ import (
 	"sync"
 	"time"
 
-	ausf_context "github.com/free5gc/ausf/internal/context"
-	"github.com/free5gc/ausf/internal/logger"
-	"github.com/free5gc/openapi/models"
-	Nudm_UEAU "github.com/free5gc/openapi/udm/UEAuthentication"
-	sbi_metrics "github.com/free5gc/util/metrics/sbi"
+	ausf_context "github.com/acore2026/ausf/internal/context"
+	"github.com/acore2026/ausf/internal/logger"
+	"github.com/acore2026/openapi/models"
+	Nudm_UEAU "github.com/acore2026/openapi/udm/UEAuthentication"
+	sbi_metrics "github.com/acore2026/util/metrics/sbi"
 )
 
 type nudmService struct {

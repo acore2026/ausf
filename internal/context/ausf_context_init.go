@@ -5,9 +5,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/free5gc/ausf/internal/logger"
-	"github.com/free5gc/ausf/pkg/factory"
-	"github.com/free5gc/openapi/models"
+	"github.com/acore2026/ausf/internal/logger"
+	"github.com/acore2026/ausf/pkg/factory"
+	"github.com/acore2026/openapi/models"
 )
 
 func InitAusfContext(context *AUSFContext) {

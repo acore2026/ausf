@@ -12,17 +12,17 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 
-	ausf_context "github.com/free5gc/ausf/internal/context"
-	"github.com/free5gc/ausf/internal/logger"
-	"github.com/free5gc/ausf/internal/sbi/consumer"
-	"github.com/free5gc/ausf/internal/sbi/processor"
-	"github.com/free5gc/ausf/internal/util"
-	"github.com/free5gc/ausf/pkg/app"
-	"github.com/free5gc/ausf/pkg/factory"
-	"github.com/free5gc/openapi/models"
-	"github.com/free5gc/util/httpwrapper"
-	logger_util "github.com/free5gc/util/logger"
-	"github.com/free5gc/util/metrics"
+	ausf_context "github.com/acore2026/ausf/internal/context"
+	"github.com/acore2026/ausf/internal/logger"
+	"github.com/acore2026/ausf/internal/sbi/consumer"
+	"github.com/acore2026/ausf/internal/sbi/processor"
+	"github.com/acore2026/ausf/internal/util"
+	"github.com/acore2026/ausf/pkg/app"
+	"github.com/acore2026/ausf/pkg/factory"
+	"github.com/acore2026/openapi/models"
+	"github.com/acore2026/util/httpwrapper"
+	logger_util "github.com/acore2026/util/logger"
+	"github.com/acore2026/util/metrics"
 )
 
 type ServerAusf interface {

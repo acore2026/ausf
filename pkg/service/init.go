@@ -10,15 +10,15 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
 
-	ausf_context "github.com/free5gc/ausf/internal/context"
-	"github.com/free5gc/ausf/internal/logger"
-	"github.com/free5gc/ausf/internal/sbi"
-	"github.com/free5gc/ausf/internal/sbi/consumer"
-	"github.com/free5gc/ausf/internal/sbi/processor"
-	"github.com/free5gc/ausf/pkg/app"
-	"github.com/free5gc/ausf/pkg/factory"
-	"github.com/free5gc/util/metrics"
-	"github.com/free5gc/util/metrics/utils"
+	ausf_context "github.com/acore2026/ausf/internal/context"
+	"github.com/acore2026/ausf/internal/logger"
+	"github.com/acore2026/ausf/internal/sbi"
+	"github.com/acore2026/ausf/internal/sbi/consumer"
+	"github.com/acore2026/ausf/internal/sbi/processor"
+	"github.com/acore2026/ausf/pkg/app"
+	"github.com/acore2026/ausf/pkg/factory"
+	"github.com/acore2026/util/metrics"
+	"github.com/acore2026/util/metrics/utils"
 )
 
 var AUSF *AusfApp

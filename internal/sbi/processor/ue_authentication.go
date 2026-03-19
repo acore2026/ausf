@@ -20,12 +20,12 @@ import (
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 
-	ausf_context "github.com/free5gc/ausf/internal/context"
-	"github.com/free5gc/ausf/internal/logger"
-	"github.com/free5gc/ausf/pkg/factory"
-	"github.com/free5gc/openapi/models"
-	"github.com/free5gc/util/metrics/sbi"
-	"github.com/free5gc/util/ueauth"
+	ausf_context "github.com/acore2026/ausf/internal/context"
+	"github.com/acore2026/ausf/internal/logger"
+	"github.com/acore2026/ausf/pkg/factory"
+	"github.com/acore2026/openapi/models"
+	"github.com/acore2026/util/metrics/sbi"
+	"github.com/acore2026/util/ueauth"
 )
 
 func (p *Processor) HandleEapAuthComfirmRequest(c *gin.Context, eapSession models.EapSession, eapSessionId string) {

@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/free5gc/ausf/internal/logger"
-	"github.com/free5gc/openapi/models"
-	"github.com/free5gc/openapi/oauth"
+	"github.com/acore2026/ausf/internal/logger"
+	"github.com/acore2026/openapi/models"
+	"github.com/acore2026/openapi/oauth"
 )
 
 type AUSFContext struct {
